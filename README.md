@@ -1,1 +1,4 @@
 # Smile-Detection-and-Classificaion
+
+In this project, I used the CelebA dataset for smile classification. I cleaned the dataset by removing duplicate images and selecting an equal number of smiling and not smiling samples to avoid class imbalance. The data was split into training, validation, and test sets. I trained and compared three different custom CNN architectures, as well as InceptionV3 and ResNet, to evaluate their performance on the task. After testing all models, I chose the best-performing one and saved it in .h5 format for deployment. For real-time prediction, I used Haar Cascade to detect and crop faces before passing them to the model.
+Note: In this GitHub repository, I included only the final .h5 model and the Python prediction script. All other training files and datasets are stored locally due to size constraints.
